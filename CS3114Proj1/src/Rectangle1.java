@@ -4,9 +4,9 @@
 // I will not lie, cheat, or steal, nor will I accept the actions of those who
 // do.
 // -- Marlin Spears (mlspears1228)
-package cs3114proj1;
 
-import java.io.FileNotFoundException;
+
+
 
 /**
  * Project Runner class
@@ -17,16 +17,21 @@ import java.io.FileNotFoundException;
  */
 public class Rectangle1 {
     
-    public static void main(String[] argv) throws FileNotFoundException {
+    /**
+     * Main method to pass along argument
+     * 
+     * @param argv
+     *          Argument array
+     * 
+     */
+    public static void main(String[] argv) {
         
-        if (argv.length == 1) {
+        
             Instruct instr = new Instruct(argv[0]);
             instr.readFile();
-        }
         
-        else {
-            
-        }
+        
+        
     }
     
 
